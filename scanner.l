@@ -1,9 +1,11 @@
-/* CMSC 430 Compiler Theory and Design
-   Project 1 Skeleton
-   UMGC CITE
-   9 August 2025*/
-
-/* This file contains flex input file */
+/*
+ * CMSC 430 Compiler Theory and Design
+ * Project 1
+ * Edmond Leaveck
+ * 9 August 2025
+ * Student Modified File
+ * Description: Flex scanner rules for tokens defined in Tokens enumeration.
+ */
 
 %{
 #include <cstdio>

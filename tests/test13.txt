@@ -1,0 +1,2 @@
+// Hex integer literals
+#2aF  #FF

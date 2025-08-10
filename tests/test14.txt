@@ -1,0 +1,2 @@
+// Character escape set
+'\b' '\t' '\r' '\f'

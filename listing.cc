@@ -1,10 +1,11 @@
-// CMSC 430 Compiler Theory and Design
-// Project 1 Skeleton
-// UMGC CITE
-// Summer 2023
-
-// This file contains the bodies of the functions that produces the
-// compilation listing
+/*
+ * CMSC 430 Compiler Theory and Design
+ * Project 1
+ * Edmond Leaveck
+ * 9 August 2025
+ * Student Modified File
+ * Description: Implements functions that produce the compilation listing.
+ */
 
 #include <cstdio>
 #include <string>
@@ -42,7 +43,7 @@ int lastLine()
 	const int totalErrors = lexicalErrors + syntaxErrors + semanticErrors;
 	if (totalErrors == 0)
 	{
-		printf("Compiled Succesfully\n");
+		printf("Compiled Successfully\n");
 	}
 	else
 	{

@@ -1,11 +1,11 @@
-// /*
-//  * CMSC 430 Compiler Theory and Design
-//  * Project 1
-//  * UMGC
-//  * 9 August 2025
-//  * Student Modified File
-//  * Description: Added additional tokens to the Tokens enumeration.
-//  */
+/*
+ * CMSC 430 Compiler Theory and Design
+ * Project 1
+ * Edmond Leaveck
+ * 9 August 2025
+ * Student Modified File
+ * Description: Added additional tokens to the Tokens enumeration.
+ */
 
 //
 // Tokens enumeration
@@ -18,10 +18,10 @@ enum Tokens
     ANDOP,
     OROP,  // |
     NOTOP, // !
-    RELOP, // = <> > >= < <=  (all return RELOP)
+    RELOP, // = <> > >= < <=
     REMOP, // %
     EXPOP, // ^
-    NEGOP, // ~ (unary minus)
+    NEGOP, // ~
 
     ARROW, // =>
     BEGIN_,

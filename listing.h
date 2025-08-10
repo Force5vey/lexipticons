@@ -1,10 +1,13 @@
-// CMSC 430 Compiler Theory and Design
-// Project 1 Skeleton
-// UMGC CITE
-// Summer 2023
+/*
+ * CMSC 430 Compiler Theory and Design
+ * Project 1
+ * Edmond Leaveck
+ * 9 August 2025
+ * Student Modified File
+ * Description: Function prototypes for the compilation listing.
+ */
 
-// This file contains the function prototypes for the functions that produce
-// the compilation listing
+#include <string>
 
 enum ErrorCategories
 {
